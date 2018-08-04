@@ -33,7 +33,6 @@ class EmployeeList extends Component {
   }
 
   render() {
-      console.log(this.props);
       return (
           <FlatList
             data={this.props.employees}
